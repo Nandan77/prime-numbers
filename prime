@@ -1,0 +1,28 @@
+prime numbers:
+#include <stdio.h>
+
+int main(){
+	int i,N,j,count,flag;
+	
+	scanf("%d", &N);
+	for(i=1;i<=N;i++)
+	{
+	    flag=0;
+	   
+	    
+	for(j=1;j<=N;j++)
+{
+    if(i%j == 0)
+    flag++;
+    
+}
+   if(flag==2)
+   {
+    printf("%d ", i);
+
+    
+}
+
+}
+return 0;
+}
